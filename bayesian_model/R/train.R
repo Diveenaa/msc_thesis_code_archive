@@ -51,15 +51,7 @@ prep_train_data <- function(data, prediction_period = 12) {
             'month_of_year_temp_anomaly_rw1',
             'month_of_year_temp_anomaly_rw2',
             'month_of_year_temp_anomaly_iid',
-            'month_of_year_temp_anomaly_ar1',
-            'month_of_year_precip_rw1',
-            'month_of_year_precip_rw2',
-            'month_of_year_precip_iid',
-            'month_of_year_precip_ar1',
-            'month_of_year_precip_anomaly_rw1',
-            'month_of_year_precip_anomaly_rw2',
-            'month_of_year_precip_anomaly_iid',
-            'month_of_year_precip_anomaly_ar1'
+            'month_of_year_temp_anomaly_ar1'
         )) %>%
         ungroup
 }
