@@ -35,7 +35,7 @@ combine_draws <- function(
                 do.call(what = cbind) %>%
                 exp
 
-            # get weeks and population from the data to generate
+            # get months and population from the data to generate
             # Poisson draws (we also pull cases to return them with the
             # function output)
             model_data <- d$model[[1]]$fitted_values %>%
